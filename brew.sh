@@ -34,17 +34,10 @@ brew install bash-completion
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
-
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install bfg
@@ -62,7 +55,6 @@ brew install knock
 brew install nmap
 brew install pngcheck
 brew install socat
-brew install sqlmap
 brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
@@ -81,7 +73,6 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
-brew install rhino
 brew install tree
 brew install webkit2png
 brew install zopfli
